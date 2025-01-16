@@ -1,0 +1,7 @@
+# ninja log v5
+0	385	7587138168527082	CMakeFiles/lab00.dir/helloWorld.cpp.obj	76476a36b0484e68
+4	407	7587138168754708	CMakeFiles/lab00.dir/arrayFuncs.cpp.obj	a52a09e4353dca45
+8	396	7587138168653265	CMakeFiles/lab00.dir/tddFuncs.cpp.obj	d65c20a7fa568b02
+6	421	7587138168901072	CMakeFiles/lab00.dir/lab00Test.cpp.obj	d85918c0e7d054f7
+2	162	7587138296754964	build.ninja	7c9dce4e3a744158
+2	71	7587138298376816	lab00.exe	cb04a87bf9837cdf
