@@ -1,3 +1,0 @@
-C:/Users/Monkz/OneDrive/Desktop/UCSB/2024-2025/CS32/lab00/cmake-build-debug/CMakeFiles/lab00.dir
-C:/Users/Monkz/OneDrive/Desktop/UCSB/2024-2025/CS32/lab00/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Monkz/OneDrive/Desktop/UCSB/2024-2025/CS32/lab00/cmake-build-debug/CMakeFiles/rebuild_cache.dir
