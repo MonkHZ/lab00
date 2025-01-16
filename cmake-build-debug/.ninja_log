@@ -1,0 +1,5 @@
+# ninja log v5
+8	245	7587019456860745	CMakeFiles/lab00.dir/tddFuncs.cpp.obj	d65c20a7fa568b02
+0	270	7587019457126286	CMakeFiles/lab00.dir/lab00Test.cpp.obj	d85918c0e7d054f7
+5	271	7587019457140409	CMakeFiles/lab00.dir/arrayFuncs.cpp.obj	a52a09e4353dca45
+271	364	7587019458041590	lab00.exe	cb04a87bf9837cdf
