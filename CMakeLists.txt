@@ -1,13 +1,22 @@
-cmake_minimum_required(VERSION 3.27)
-project(lab00)
+CXX = clang++
+# Uncomment the next line and comment the above to switch to g++
+# CXX = g++
 
-set(CMAKE_CXX_STANDARD 14)
+# Rule to build the executable lab00Test
+lab00Test: lab00Test.o tddFuncs.o arrayFuncs.o
+	${CXX} lab00Test.o tddFuncs.o arrayFuncs.o -o lab00Test
 
-include_directories(.)
+# Rules for individual .o files (not strictly needed due to implicit rules)
+# %.o: %.cpp
+#	${CXX} -c $< -o $@
 
-add_executable(lab00
-        arrayFuncs.cpp
-        arrayFuncs.h
-        lab00Test.cpp
-        tddFuncs.cpp
-        tddFuncs.h)
+# Clean rule to remove generated files
+clean:
+	/bin/rm -f *.o helloWorld lab00Test
+
+# Rule to build helloWorld for testing Makefiles
+helloWorld: helloWorld.o
+	${CXX} helloWorld.o -o helloWorld
+
+helloWorld.o: helloWorld.cpp
+	${CXX} -c helloWorld.cpp
